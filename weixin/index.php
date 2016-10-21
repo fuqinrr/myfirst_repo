@@ -129,9 +129,9 @@ class wechatCallbackapiTest
             $content = array();
             $content[] = array("Title"=>"多图文1标题", "Description"=>"", "PicUrl"=>"http://www.goodjobs.cn/images/logo.gif", "Url" =>"http://www.goodjobs.cn/");
             $content[] = array("Title"=>"多图文2标题", "Description"=>"", "PicUrl"=>"http://365jia.cn/images/www/site_logo.gif", "Url" =>"http://365jia.cn");
-        }else if (strstr($keyword, "林心如")){
+        }else if (strstr($keyword, "图片")){
             $content = array();
-            $content[] = array("Title"=>"林心如",  "Description"=>"林心如林心如林心如林心如", "PicUrl"=>"http://xhphp.applinzi.com/weixin/image/lxr.png", "Url" =>"http://3g.365jia.cn/");
+            $content[] = array("Title"=>"图片1",  "Description"=>"", "PicUrl"=>"http://myweixinyingyong.applinzi.com/images/psb.jpg", "Url" =>"http://3g.365jia.cn/");
         }else if (strstr($keyword, "音乐")){
             $content = array();
             /*
